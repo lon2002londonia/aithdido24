@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/main.css">
 	<title>ait hdido</title>
+	<style> 
+	</style>
 </head>
 <body>
 	<header>
@@ -20,7 +22,7 @@
 				<span></span>
 			</span>
 			<ul id="listheader">
-				<li class="active"><a href="aithdido.html">home</a></li>
+				<li class="active"><a href="#">home</a></li>
 				<li><a href="#service">service</a></li>
 				<li><a href="#contacte">contacte</a></li>
 				<li><a href="#abolve">abolve</a></li>
@@ -28,6 +30,20 @@
 		</nav>
 	</div>
 	</header>
+	<!-- <div class="tradction">
+		<div>
+		<span><label for="eng">english</label><input type="radio" name="hh" id="eng" ></span>
+		<span><label for="arb">arbic</label><input type="radio" name="hh" id="arb" checked></span>
+	</div></div> -->
+	<div class="tradction">
+	<select name="tradiction" id="tra">
+		<option value="arb">العربية</option>
+		<option value="eng" onclick="
+	window.location.href='aithdido-e.html'
+		">english</option>
+	</select>
+	</div>
+	<div class="toos" >
 	<div class="services" id="service">
 		<div class="text">
 			<h3>السلام و عليكم</h3>
@@ -43,7 +59,7 @@
 			<div class="box">
 				<div class="text">
 				<a href="oudadi.html"><img src="image/oudadi.jpg" alt=""></a>
-					<h3>أودادي</h3>
+					<h3 id="boxh1">أودادي</h3>
 					<p>للمزيد من المعومات  المرجو الضغط على الصورة 
 					</p>
 				</div>
@@ -51,7 +67,7 @@
 			<div class="box">
 				<div class="text">
 				<a href="olgh.html"><img src="image/olgh.jpg" alt=""></a>
-					<h3>أولغازي</h3>
+					<h3 id="boxh2">أولغازي</h3>
 					<p>للمزيد من المعومات  المرجو الضغط على الصورة 
 					</p>
 				</div>
@@ -59,7 +75,7 @@
 			<div class="box">
 				<div class="text">
 				<a href="ait.html"><img src="image/ait.jpg" alt=""></a>
-					<h3>أيت علي أوداود</h3>
+					<h3 id="boxh3">أيت علي أوداود</h3>
 					<p>للمزيد من المعومات  المرجو الضغط على الصورة 
 					</p>
 				</div>
@@ -67,7 +83,7 @@
 			<div class="box">
 				<div class="text">
 				<a href="amr.html"><img src="image/amrdol.jpg" alt=""></a>
-					<h3>أمردول أوراغ</h3>
+					<h3 id="boxh4">أمردول أوراغ</h3>
 					<p>للمزيد من المعومات  المرجو الضغط على الصورة 
 					</p>
 				</div>
@@ -75,7 +91,7 @@
 			<div class="box">
 				<div class="text">
 				<a href="ibo.html"><img src="image/ibokhnan.jpg" alt=""></a>
-					<h3>‌‌ابوخنان</h3>
+					<h3 id="boxh5">‌‌ابوخنان</h3>
 					<p>للمزيد من المعومات  المرجو الضغط على الصورة 
 					</p>
 				</div>
@@ -83,7 +99,7 @@
 			<div class="box">
 				<div class="text">
 				<a href="imlchil.html"><img src="image/imlchil.jpg" alt=""></a>
-					<h3>املشيل</h3>
+					<h3 id="boxh6">املشيل</h3>
 					<p>للمزيد من المعومات  المرجو الضغط على الصورة 
 					</p>
 				</div>
@@ -91,7 +107,7 @@
 			<div class="box">
 				<div class="text">
 				<a href="ta.html"><img src="image/ta.jpg" alt=""></a>
-					<h3>تغيغاشت</h3>
+					<h3 id="boxh7">تغيغاشت</h3>
 					<p>للمزيد من المعومات  المرجو الضغط على الصورة 
 					</p>
 				</div>
@@ -120,9 +136,9 @@
 		<div class="container">
 			<h3>للتواصل معنا</h3>
 			<div class="line">
-				<a href="https://wa.me/+212720855731" target="_blank"><i class="fa-brands fa-whatsapp fa-spin fa-2xs" ></i>الواتساب </a>
-				<a href="https://www.facebook.com/profile.php?id=61551852747658" target="_blank"><i class="fa-brands fa-facebook-f fa-spin fa-2xs" ></i>الفيسبوك </a>    
-				<a href="https://youtube.com/@user-rl2ny3pj5i?si=ad112bsCWFEP2ABv" target="_blank"><i class="fa-brands fa-youtube fa-spin fa-2xs" ></i>اليوتوب </a>       
+				<a href="https://wa.me/+212720855731" target="_blank"><i class="fab fa-whatsapp  fa-2xs" ></i>الواتساب </a>
+				<a href="https://www.facebook.com/profile.php?id=61551852747658" target="_blank"><i class="fab fa-facebook-f  fa-2xs" ></i>الفيسبوك </a>    
+				<a href="https://youtube.com/@user-rl2ny3pj5i?si=ad112bsCWFEP2ABv" target="_blank"><i class="fab fa-youtube  fa-2xs" ></i>اليوتوب </a>       
 			 </div>
 		 </div>
 	</div>
@@ -139,6 +155,8 @@
 			
 		</div>
 	  </div>
+	</div>	  
 	  <script src="javascript/java.js"></script>
+	  <script src="javascript/tradction.js"></script>
 </body>
 </html>
